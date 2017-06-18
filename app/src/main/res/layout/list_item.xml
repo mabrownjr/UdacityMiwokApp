@@ -14,9 +14,10 @@
 
     <LinearLayout
         android:id="@+id/text_container"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_weight="1"
         android:paddingLeft="16dp"
         android:background="@color/category_numbers">
 
@@ -30,6 +31,7 @@
             android:textColor="@android:color/white"
             android:textStyle="bold"
             tools:text="lutti"/>
+
         <TextView
             android:id="@+id/default_text_view"
             android:layout_width="match_parent"
@@ -40,6 +42,8 @@
             android:textColor="@android:color/white"
             tools:text="one"/>
     </LinearLayout>
+
+
 
 
 
